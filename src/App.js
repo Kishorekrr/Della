@@ -14,7 +14,7 @@ function App() {
     <div className="app">
       <Sidebar />
       <div className="main-content">
-        {/* Header Section */}
+        
         <div className="dashboard-header" style={{ 
           display: "flex", 
           justifyContent: "space-between", 
@@ -40,7 +40,7 @@ function App() {
           </button>
         </div>
 
-        {/* Dashboard Content */}
+        
         <div className="dashboard-container">
           <ProductList onSelect={setSelectedProduct} />
           <div className="right-section">

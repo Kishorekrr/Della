@@ -1,5 +1,5 @@
 import React from "react";
-import { FiLogOut } from "react-icons/fi"; // for logout icon
+import { FiLogOut } from "react-icons/fi"; 
 
 const Sidebar = () => (
   <div className="sidebar">
